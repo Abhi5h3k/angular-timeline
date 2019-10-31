@@ -3,7 +3,7 @@
 [![Abhishek StackOverflow](https://img.shields.io/badge/Abhishek-StackOverflow-orange.svg?style=for-the-badge)](https://stackoverflow.com/users/6870223/abhi?tab=profile)
 
 ![timeline](https://media.giphy.com/media/RfeiiH9TpmGIQB2FxH/giphy.gif)
-<img src="https://media.giphy.com/media/RfeiiH9TpmGIQB2FxH/giphy.gif" width="100%" height="100%" ></img>
+<img src="https://media.giphy.com/media/RfeiiH9TpmGIQB2FxH/source.gif" width="100%" height="100%" ></img>
   
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
