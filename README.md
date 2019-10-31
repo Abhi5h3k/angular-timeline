@@ -2,7 +2,7 @@
 [![Abhishek LinkedIn](https://img.shields.io/badge/Abhishek-LinkedIn-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abhishek-bhardwaj-b16764166)
 [![Abhishek StackOverflow](https://img.shields.io/badge/Abhishek-StackOverflow-orange.svg?style=for-the-badge)](https://stackoverflow.com/users/6870223/abhi?tab=profile)
 
-![timeline](https://media.giphy.com/media/RfeiiH9TpmGIQB2FxH/giphy.gif)
+![timeline](https://media.giphy.com/media/RfeiiH9TpmGIQB2FxH/giphy.gif){:height="50%" width="100%"}
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
