@@ -4,3 +4,7 @@
 #light{
     background-color: #ffffff;
 }
+.timeline{
+    margin-top:-4em ;
+    z-index: 100;
+}
