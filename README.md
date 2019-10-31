@@ -2,7 +2,8 @@
 [![Abhishek LinkedIn](https://img.shields.io/badge/Abhishek-LinkedIn-blue.svg?style=for-the-badge)](https://www.linkedin.com/in/abhishek-bhardwaj-b16764166)
 [![Abhishek StackOverflow](https://img.shields.io/badge/Abhishek-StackOverflow-orange.svg?style=for-the-badge)](https://stackoverflow.com/users/6870223/abhi?tab=profile)
 
-![timeline](https://media.giphy.com/media/RfeiiH9TpmGIQB2FxH/giphy.gif){:height="50%" width="100%"}
+![timeline](https://media.giphy.com/media/RfeiiH9TpmGIQB2FxH/giphy.gif)
+<div style="width:100%;height:0;padding-bottom:41%;position:relative;"><iframe src="https://giphy.com/embed/RfeiiH9TpmGIQB2FxH" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/motu-abhishek-abhi5h3k-RfeiiH9TpmGIQB2FxH">via GIPHY</a></p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
