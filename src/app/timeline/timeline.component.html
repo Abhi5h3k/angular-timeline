@@ -3,16 +3,19 @@
     <div class="card bg-light mb-3 mx-auto" id="light" style="width: 95%;">
       <div class="card-header">Light Timeline</div>
       <div class="card-body">
-       
-        
+
+
         <!--  -->
-        <div *ngFor="let item of itemlist" (click)="onClick()" class="ml-4  pl-5 pb-3 " style="border-left: 2px solid #d4d9df;">
+        <div *ngFor="let item of itemlist" (click)="onClick()" class="ml-4  pl-5 pb-3 "
+          style="border-left: 2px solid #d4d9df;">
           <span class="rounded-circle pt-2 pr-2 pb-2 pl-2"
             style="border:3px solid #22c0e8; background-color: #fff;  color: black; margin-left:-4.4em; position: absolute;"></span>
           <h6 class="" style="font: 14px;" style="color: #22c0e8!important;">{{item.time}}</h6>
           <h6 class="mt-4" style="font: 13px; color: #688fb6;">{{item.title}}</h6>
 
           <p class="card-text" style="color: #3d4247;">{{item.content}}</p>
+          <span *ngFor="let tag of item.tags" class="badge badge-pill  m-1" [ngClass]="[item.getRandColor()]">{{tag}}</span>
+          
         </div>
 
 
@@ -25,15 +28,18 @@
       <div class="card-header">Dark Timeline</div>
       <div class="card-body p-5">
 
-        <div *ngFor="let item of itemlist" (click)="onClick()" class="pl-5 pb-4 " style="border-left: 1px dashed #ffff;">
-          <span class="rounded-circle pt-3 pr-4 pb-3 pl-4"
-            style="background-color: #fff;  color: black; margin-left:-5.6em;margin-top: -1.3em; position: absolute;">{{item.id}}</span>
+        <div *ngFor="let item of itemlist" (click)="onClick()" class="pl-5 pb-4 "
+          style="border-left: 1px dashed #ffff;">
+          <span class="rounded-circle pt-2 pr-3 pb-2 pl-3"
+            style="background-color: #fff;  color: black; margin-left:-5em;margin-top: -1.3em; position: absolute;">{{item.id}}</span>
           <h6 class="" style="font: 14px;" style="color: #ced4da!important;">{{item.time}}</h6>
           <h6 class="mt-4" style="font: 13px;">{{item.title}}</h6>
 
           <p class="card-text" style="color: #ced4da!important;">{{item.content}}</p>
+          <span *ngFor="let tag of item.tags" class="badge badge-pill  m-1" [ngClass]="[item.getRandColor()]">{{tag}}</span>
+          
         </div>
-        
+
       </div>
     </div>
   </div>
