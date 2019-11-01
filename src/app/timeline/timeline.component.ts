@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TimelineComponent implements OnInit {
   itemlist:TimeLineItems[]=[];
-  tags:string[]=['Live','love','laught'];
+  tags:string[]=['Live','love','laugh'];
   
   constructor() { }
 

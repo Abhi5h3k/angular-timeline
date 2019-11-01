@@ -1,16 +1,22 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import {
+  async,
+  ComponentFixture,
+  TestBed
+} from '@angular/core/testing';
 
-import { ToolbarComponent } from './toolbar.component';
+import {
+  ToolbarComponent
+} from './toolbar.component';
 
 describe('ToolbarComponent', () => {
   let component: ToolbarComponent;
-  let fixture: ComponentFixture<ToolbarComponent>;
+  let fixture: ComponentFixture < ToolbarComponent > ;
 
-  beforeEach(async(() => {
+  beforeEach(async (() => {
     TestBed.configureTestingModule({
-      declarations: [ ToolbarComponent ]
-    })
-    .compileComponents();
+        declarations: [ToolbarComponent]
+      })
+      .compileComponents();
   }));
 
   beforeEach(() => {
